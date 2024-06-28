@@ -16,6 +16,23 @@
 <p>Welcome. WordPress is a very special project to me. Every developer and contributor adds something unique to the mix, and together we create something beautiful that I am proud to be a part of. Thousands of hours have gone into WordPress, and we are dedicated to making it better every day. Thank you for making it part of your world.</p>
 <p style="text-align: right">&#8212; Matt Mullenweg</p>
 
+## 一键部署到 Serverless 开发中心
+
+<appcenter>
+   
+- :fire: 通过 [Serverless 开发中心](https://devs.console.aliyun.com/applications/create?template=sae-wordpress) ，
+  [![Deploy with Severless Devs](https://img.alicdn.com/imgextra/i1/O1CN01w5RFbX1v45s8TIXPz_!!6000000006118-55-tps-95-28.svg)](https://fcnext.console.aliyun.com/applications/create?template=sae-wordpress) 该应用。
+   
+</appcenter>
+<deploy>
+    
+- 通过 [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install) 进行部署：
+  - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://docs.serverless-devs.com/fc/config) ；
+  - 初始化项目：`s init sae-wordpress -d sae-wordpress`
+  - 进入项目，并进行项目部署：`cd sae-wordpress && s deploy -y`
+   
+</deploy>
+
 <h2>Installation: Famous 5-minute install</h2>
 <ol>
 	<li>Unzip the package in an empty directory and upload everything.</li>
